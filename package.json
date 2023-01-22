@@ -17,6 +17,10 @@
     "react-dom": "18.2.0",
     "react-hydration-provider": "^1.0.2",
     "react-icons": "^4.7.1",
+    "react-is": "^18.2.0",
     "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
   }
 }
