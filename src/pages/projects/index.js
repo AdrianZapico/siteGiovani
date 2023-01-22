@@ -13,7 +13,7 @@ export default function Projects(props) {
                 <DivImage>
                 {data.map((item, index) => (
                     
-                    <DivBox>
+                    <DivBox key={index}>
                     <Image
                     style={{borderRadius:'10px',
                     margin:'7px',
