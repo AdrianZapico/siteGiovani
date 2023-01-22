@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import { Container, Content, Ul, Img, DivImage, DivBox, ButtonScroll  } from './style'
+
+import { Container, Content,  DivImage, DivBox,  } from './style'
 import data from '../../database/image.json'
 import Image from 'next/image'
 
 export default function Projects(props) {
-
 
    
     return (
@@ -18,9 +17,8 @@ export default function Projects(props) {
                     <Image
                     style={{borderRadius:'10px',
                     margin:'7px',
-                    
-                    
                     }}
+                    alt='image'
                    
                     width={300}
                     height={300}

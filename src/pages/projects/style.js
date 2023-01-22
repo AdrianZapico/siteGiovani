@@ -66,6 +66,22 @@ export const DivImage = styled.div`
   margin: 200px 100px 100px 100px;
   gap: 2px 2px;  
   overflow-y: scroll; 
+
+  @media (max-width: 600px) {
+  
+  
+  background-color: #2c2d36;
+  width: 300px;
+  height: 340px;
+  border-radius: 10px ;
+  display: flex;
+  margin: 20px 30px 30px 30px;
+  gap: 3px 3px;  
+  overflow-y: scroll;
+  padding: 10px;
+ 
+  
+  }
   
 
 `;

@@ -1,6 +1,9 @@
 import { FaArrowRight } from 'react-icons/fa'
 import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from '../../styles/indexStyle'
 import Link from 'next/link'
+import Image from 'next/image'
+
+
 
 export default function Home() {
   return (
@@ -21,7 +24,7 @@ export default function Home() {
         </Link>
       </Infos>
       <Logo>
-        <Img src="/images/logo.png" alt="logo" />
+        <Image width={400} height={400} src="/images/logo.png" alt="logo" />
       </Logo>
      </Content>
    </Container>
